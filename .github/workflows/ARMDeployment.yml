@@ -14,7 +14,7 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
           
       - name: checkout source code
-        uses: action/checkout@v2
+        uses: actions/checkout@v1
 
       - name: Deeploy ARM Template
         uses: azure/CLI@v1
