@@ -22,6 +22,6 @@ jobs:
           inlineScript: |
            az deployment group create \
            --name StorageAccountDeployment \
-           --resource-group githubtestdemo \
+           --resource-group testresource1 \
            --template-file armtemplates/storageaccount.json \
            --parameters storagename=Githubstorage09
