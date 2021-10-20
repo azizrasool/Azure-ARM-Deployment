@@ -24,4 +24,4 @@ jobs:
            --name StorageAccountDeployment \
            --resource-group githubtestdemo \
            --template-file armtemplates/storageaccount.json \
-           --parameters storageAccountType=Standard_LRS
+           --parameters storagename=Githubstorage09
