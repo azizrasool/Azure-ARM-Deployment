@@ -24,4 +24,4 @@ jobs:
            --name StorageAccountDeployment \
            --resource-group testresource1 \
            --template-file armtemplates/storageaccount.json \
-           --parameters storagename=Githubstorage09
+           --parameters storagename=demort7869
