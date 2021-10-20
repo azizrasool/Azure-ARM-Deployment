@@ -5,7 +5,7 @@
     "parameters": {
         "storagename": {
             "type": "string",
-            "defaultValue": "Githubstorage09"
+            "defaultValue": "demort7869"
         },
 
         "location": {
