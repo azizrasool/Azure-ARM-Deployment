@@ -20,7 +20,7 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-           az deployment group carete \
+           az deployment group create \
            --name StorageAccountDeployment \
            --resource-group githubtestdemo \
            --template-file armtemplates/storageaccount.json \
